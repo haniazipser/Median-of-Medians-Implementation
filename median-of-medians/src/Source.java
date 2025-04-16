@@ -1,13 +1,3 @@
-//Hanna Zipser - Gr-4
-/*
-Algorytm na poczatku dzieli aktualną podtablicę na grupy 5-elementowe. Każdą z tych tablic sortujemy Insertion Sortem, który dla tak malych danych
-jest praktycznie liniowy. Po posortowaniu mediana danej grupy jest pod indeksem środkowym. Wartość tą przerzucamy na poczatek, czyli dla k-tej grupy
-jej mediana znajduje sie pod indeksem poczatek + k. Zeby otzrymać medianę median, wywołujemy sie rekurencyjnie na tak pwostałej podtabicy o długości
-równej ilości grup. Mediana median będzie naszym optymalnie wyznaczonym pivotem. Zamiast jednak tradycyjnie w Partition dzielić tablicę na dwie częsci,
-dzielimy ją na 3: mniejszą, równą i większą od pivota. Uzywam do tego algorytmu Dutch national flag algorithm, który jest wariacją Partition,
-zoptymalizowaną dla duplikatów. Teraz sprawdzamy, czy nasze k znajduje się w pierwszej, drugiej czy trzeciej grupie i wywołujemy się w nich rekurencyjnie.
-Dla małych tablic używamy Insertion sort i zwracamy poprostu k-ty element ( za mała uznaje tablice dwuelementowa).
- */
 
 import java.util.Scanner;
 
