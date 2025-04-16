@@ -1,6 +1,6 @@
 # Median of Medians Algorithm
 
-This algorithm implements the Median of Medians approach to efficiently find the k-th smallest element in an unsorted array in linear time.
+This algorithm implements the Median of Medians approach to efficiently find the k-th smallest element in an unsorted array in linear time. I included JUnit tests in order to test my algorithm.
 
 ## Description
 
